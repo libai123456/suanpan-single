@@ -38,9 +38,24 @@ suanpan-lite-linux.v1.0.*.tgz
 
 
 Linux 用户
-1. 解压 suanpan-lite-linux.v1.0.*.tgz
-2. cd到解压后的目录
-3. 运行 ./spctl.sh start（使用root用户执行）
+1. 从指定地址下载好Linux版本的suanpan个人版压缩包suanpan-lite-linux.v1.0.*.tgz
+比如放到：/home/suanpan/下面
+2. 解压这个压缩包
+```
+tar zxvf suanpan-lite-linux.v1.0.*.tgz -C /home/suanpan
+```
+3. cd到解压后的目录
+```
+cd /home/suanpan/suanpan-edu
+```
+
+4. 运行spctl.sh（使用root用户执行）
+```
+sudo su
+./spctl start
+```
+5. 等待终端的log结束显示。
+
 
 mac 用户
 1. 解压 suanpan-lite-darwin-v1.0.*.tgz
