@@ -12,6 +12,8 @@ suanpan-lite-linux.v1.0.*.tgz
 ```
 > 对于windows和mac系统，算盘启动时如果没有检测到virtualbox软件，会在安装的过程中自动安装相应的virtualbox软件，如果系统已经安装了virtualbox软件，算盘将会使用已经安装的virtualbox来启动算盘
 
+### 启动算盘 ###
+
 #### windows 用户 ####
 1. 解压suanpan-lite-windows-v1.0.x安装包
 
