@@ -1,8 +1,7 @@
 # 算盘个人版使用指南
 
 ## 安装 ##
-### 前提 ###
-对于windows和mac系统，算盘启动时如果没有检测到virtualbox软件，会在安装的过程中自动安装相应的virtualbox软件
+### 准备安装包 ###
 
 从 https://github.com/LuChenjing/suanpan-edu/releases 下载好当前系统匹配的算盘个人版的安装包
 目前的版本如下：
@@ -11,6 +10,7 @@ suanpan-lite-windows.v1.0.*.zip
 suanpan-lite-darwin.v1.0.*.tgz
 suanpan-lite-linux.v1.0.*.tgz
 ```
+> 对于windows和mac系统，算盘启动时如果没有检测到virtualbox软件，会在安装的过程中自动安装相应的virtualbox软件，如果系统已经安装了virtualbox软件，算盘将会使用已经安装的virtualbox来启动算盘
 
 #### windows 用户 ####
 1. 解压suanpan-lite-windows-v1.0.x安装包
