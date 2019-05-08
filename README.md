@@ -14,7 +14,9 @@ suanpan-lite-linux.v1.0.*.tgz
 
 #### windows 用户 ####
 1. 解压suanpan-lite-windows-v1.0.x安装包
+
 2. 右键选择start-suanpan.bat，在上下文菜单中选择**以管理员权限运行**
+
 3. 等待启动完成，浏览器自动打开地址 http://splocal.xuelangyun.com:30000
 
 #### mac 用户 ####
@@ -23,6 +25,7 @@ suanpan-lite-linux.v1.0.*.tgz
 tar zxvf suanpan-lite-darwin.v1.0.*.tgz
 ```
 2. cd到解压后的目录
+
 3. 执行下面命令启动算盘
 ```
 ./spctl.sh start
@@ -35,14 +38,14 @@ tar zxvf suanpan-lite-darwin.v1.0.*.tgz
 ```
 tar zxvf suanpan-lite-linux.v1.0.*.tgz
 ```
-3. cd到解压后的目录
+2. cd到解压后的目录
 
-4. 执行下面命令启动算盘
+3. 执行下面命令启动算盘
 ```
 sudo su -
 ./spctl.sh start
 ```
-5. 等待启动完成，浏览器自动打开地址 http://splocal.xuelangyun.com:30000
+4. 等待启动完成，浏览器自动打开地址 http://splocal.xuelangyun.com:30000
 
 
 
