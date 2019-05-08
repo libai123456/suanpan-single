@@ -14,11 +14,15 @@ suanpan-lite-linux.v1.0.*.tgz
 ### 2. 启动算盘 ###
 
 #### windows 用户 ####
-1. 解压suanpan-lite-windows-v1.0.x安装包
+1. 解压suanpan-lite-windows-v1.0.*.zip安装包
 
 2. 右键选择start-suanpan.bat，在上下文菜单中选择**以管理员权限运行**
 
 3. 等待启动完成，浏览器自动打开地址 http://splocal.xuelangyun.com:30000
+
+4. 如果使用完毕，需要停止算盘，右键选择stop-suanpan.bat，在上下文菜单中选择**以管理员权限运行**
+
+5. 如果需要删除算盘，在停止以后，删除解压目录即可
 
 #### mac 用户 ####
 1. 解压suanpan-lite-darwin-v1.0.*.tgz
@@ -32,6 +36,13 @@ tar zxvf suanpan-lite-darwin.v1.0.*.tgz
 ./spctl.sh start
 ```
 4. 等待启动完成，浏览器自动打开地址 http://splocal.xuelangyun.com:30000
+
+5. 如果使用完毕，需要停止算盘，执行下面命令停止算盘
+```
+./spctl.sh stop
+```
+6. 如果需要删除算盘，在停止以后，删除解压目录即可
+
 > 如果没有提前安装VirtualBox，程序会自动安装VirtualBox，中途会提示输入sudo密码
 
 #### Linux 用户 ####
@@ -47,6 +58,13 @@ sudo su -
 ./spctl.sh start
 ```
 4. 等待启动完成，浏览器自动打开地址 http://splocal.xuelangyun.com:30000
+
+5. 如果使用完毕，需要停止算盘，执行下面命令停止算盘
+```
+sudo su -
+./spctl.sh stop
+```
+6. 如果需要删除算盘，在停止以后，删除解压目录即可
 
 
 
