@@ -2,7 +2,10 @@
 
 ### 1. 准备安装包 ###
 
-从 https://github.com/LuChenjing/suanpan-edu/releases 下载好当前系统匹配的算盘个人版的安装包
+从如下路径下载好当前系统匹配的算盘个人版的安装包：
+OSS: https://oss.console.aliyun.com/bucket/oss-cn-shanghai/suanpan-public/object
+Github: https://github.com/LuChenjing/suanpan-edu/releases 
+
 目前的版本如下：
 ```
 suanpan-lite-windows.v1.0.*.zip
