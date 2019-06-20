@@ -27,6 +27,7 @@ Linux/Mac: spctl.sh
 
 4. 执行下面命令启动算盘：
 ```
+Set-ExecutionPolicy -ExecutionPolicy Bypass
 ./spctl.ps1 start
 ```
 
