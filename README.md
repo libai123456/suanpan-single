@@ -83,12 +83,12 @@ sudo su -
 ### 3. 设置算盘 ###
 在实际使用算盘中，可能会遇到算盘的默认分配的资源（2核cpu，4G内存，20G磁盘）不够的情况。只需要使用工具打开算盘安装文件（spctl.sp1/spctl.sh），修改如下参数即可：
 ```
-Windows: 
+# Windows: 
 $env:MINIKUBE_MEMORY=4000
 $env:MINIKUBE_CPUS=2
 $env:MINIKUBE_DISK_SIZE="20g"
 
-Linux/Mac: 
+# Linux/Mac: 
 export MINIKUBE_MEMORY=4000
 export MINIKUBE_CPUS=2
 export MINIKUBE_DISK_SIZE=20g
