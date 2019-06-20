@@ -12,6 +12,7 @@ Windows: spctl.ps1
 Linux/Mac: spctl.sh
 ```
 > 对于windows和mac系统，算盘启动时如果没有检测到virtualbox软件，会在安装的过程中自动安装相应的virtualbox软件，如果系统已经安装了virtualbox软件，算盘将会使用已经安装的virtualbox来启动算盘
+
 > 对于windows系统，算盘启动时会自动下载curl for Windows，用于下载算盘组件。
 
 ### 2. 启动算盘 ###
