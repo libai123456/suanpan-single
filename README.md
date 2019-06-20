@@ -44,6 +44,7 @@ Linux/Mac: spctl.sh
 
 3. 执行下面命令启动算盘
 ```
+chmod a+x spctl.sh
 ./spctl.sh start
 ```
 
@@ -65,6 +66,7 @@ Linux/Mac: spctl.sh
 3. 执行下面命令启动算盘
 ```
 sudo su -
+chmod a+x spctl.sh
 ./spctl.sh start
 ```
 
