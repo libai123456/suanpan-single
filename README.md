@@ -6,7 +6,7 @@
 
 OSS: https://oss.console.aliyun.com/bucket/oss-cn-shanghai/suanpan-public/object
 
-选择如下的文件进行下载：
+选择如下的安装文件进行下载：
 ```
 Windows: spctl.ps1
 Linux/Mac: spctl.sh
