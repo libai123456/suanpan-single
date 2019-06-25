@@ -18,7 +18,7 @@ Linux/Mac: spctl.sh
 ### 2. 启动算盘 ###
 
 #### windows 用户 ####（算盘运行 需要20G空间、2核cpu、4G内存）
-1. 在D盘（或C盘）下新建文件夹suanpan，将下载下来的算盘安装文件（spctl.ps1）放在一个新建的文件夹下作为算盘安装目录。
+1. 在D盘（或C盘）下新建文件夹,命名为suanpan作为算盘安装目录，将下载的安装文件（spctl.ps1）放在新建的suanpan文件夹里。
 
 2. 从开始菜单/搜索中找到 Windows Powershell 程序， 并右键**以管理员权限运行**。
 
